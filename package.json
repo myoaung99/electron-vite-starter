@@ -10,7 +10,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "esbuild-cjs": "esbuild main.js --format=cjs --outfile=./dist/main.cjs",
-    "electron:dev": "npm run esbuild-cjs && IS_IN_DEVELOPMENT=true electron .",
+    "electron:dev": "npm run esbuild-cjs && set IS_IN_DEVELOPMENT=true && electron .",
     "electron:build": "npm run esbuild-cjs && electron-packager --out=release ."
   },
   "dependencies": {
