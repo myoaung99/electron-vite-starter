@@ -7,10 +7,10 @@ dns.setDefaultResultOrder("verbatim");
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: "3000",
-    hmr: {
-      host: "localhost",
-    },
-  },
+  // server: {
+  //   port: "3000",
+  //   hmr: {
+  //     host: "localhost",
+  //   },
+  // },
 });
